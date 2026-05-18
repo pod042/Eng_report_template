@@ -1,0 +1,18 @@
+project:
+  type: default
+
+format:
+    html:
+      self-contained: true
+      toc: false
+      code-copy: true
+      code-overflow: wrap
+      html-math-method: katex
+      fig-width: 8
+      mainfont: "Helvetica"
+
+author: "Rafael J. Scholtz"
+date: last-modified
+
+jupyter: julia
+engine: julia
