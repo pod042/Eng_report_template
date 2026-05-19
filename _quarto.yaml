@@ -1,5 +1,6 @@
 project:
   type: default
+  output-dir: quarto_outputs
 
 format:
     html:
@@ -13,6 +14,3 @@ format:
 
 author: "Rafael J. Scholtz"
 date: last-modified
-
-jupyter: julia
-engine: julia
