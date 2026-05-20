@@ -5,7 +5,7 @@ description = "Quarto template with julia and python notebooks for engineering r
 authors = [
     {name = "pod042",email = "rafael.scholtz@gmail.com"}
 ]
-readme = "README.md"
+
 requires-python = ">=3.11,<4.0"
 dependencies = [
     "forallpeople (==2.7.1)",
