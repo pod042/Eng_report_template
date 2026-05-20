@@ -1,0 +1,29 @@
+[project]
+name = "eng-report-template"
+version = "0.1.0"
+description = "Quarto template with julia and python notebooks for engineering reports"
+authors = [
+    {name = "pod042",email = "rafael.scholtz@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "forallpeople (==2.7.1)",
+    "handcalcs (==1.11.0)",
+    "matplotlib (==3.8.4)",
+    "numpy (==2.4.6)",
+    "pandas (==3.0.3)",
+    "plotly (==6.7.0)",
+    "scipy (==1.17.1)",
+    "spicelib (>=1.5.1,<2.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "ipykernel (>=7.2.0,<8.0.0)",
+    "qspice (>=1.1.1,<2.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "qspice_utils", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
